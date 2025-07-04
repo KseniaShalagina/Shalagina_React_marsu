@@ -39,6 +39,17 @@
     margin-right: 120px;
 }
 
+.cardtxts {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #707070;
+    width: 100%;
+    flex-grow: 1;
+}
+
 a {
     text-decoration: none;
 }

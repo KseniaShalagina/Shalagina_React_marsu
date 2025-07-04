@@ -1,0 +1,46 @@
+.error {
+  color: #707070;
+  font-size: 66px;
+  margin: 20px 60px 0 60px;
+  text-align: center;
+  width: 856px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  font-family: Inter;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a7313d;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border: 0px;
+  padding: 14px 43px 14px 43px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.error_div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 840px) {
+  .error {
+    width: 667px;
+    font-size: 47px;
+  }
+}
+@media (max-width: 606px) {
+  .error {
+    font-size: 36px;
+    width: 486px;
+  }
+}

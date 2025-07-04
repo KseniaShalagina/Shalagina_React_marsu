@@ -1,0 +1,64 @@
+.form_click {
+    width: 280px;
+    height: 320px;
+    border: 2px solid;
+    border-color: #a7313d;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+}
+
+.input-area {
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid;
+    width: 100%;
+    margin-bottom: 15px;
+    border-color: #a7313d;
+}
+
+.form_button {
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    background-color: #a7313d;
+    color: white;
+    border-color: #a7313d;
+
+}
+
+.form_buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_name {
+    text-align: center;
+    font-weight: normal;
+}
+
+.off1 {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: .2s;
+    transform: scale(0);
+}
+.backdrop.activ{
+    transform: scale(1);
+}

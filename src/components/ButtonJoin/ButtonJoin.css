@@ -1,0 +1,13 @@
+.join {
+    background-color: #a7313d;
+    color: white;
+    width: 179px;
+    height: 50px;
+    border-style: solid;
+    border: 0px;
+    padding: 14px 20px 14px 20px;
+    letter-spacing: -0.02em;
+    margin-top: 30px;
+    display: block;
+    font-family: Inter;
+}

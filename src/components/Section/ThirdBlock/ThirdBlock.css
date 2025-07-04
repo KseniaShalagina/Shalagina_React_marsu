@@ -1,0 +1,396 @@
+.third_blok {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.background {
+    z-index: -1;
+    background: radial-gradient(106.43% 106.43% at -2.18% 95.7%, #007aff 0%, #6A4EFF 100%);
+    width: 1200px;
+    height: 598px;
+    top: -0.46px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+
+}
+
+.backgroundd {
+    position: relative;
+}
+
+.big_card_inf {
+    width: 619px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 0 20px;
+    background-color: white;
+    position: absolute;
+    top: 86px;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avas {
+    margin-left: 0px;
+    width: 59.46px;
+    height: 59.46px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+}
+
+.name_girl {
+    text-decoration-color: #121212;
+    font-family: Inter;
+    font-size: 21.14px;
+    font-weight: 700;
+    line-height: 29.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+
+.work {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 15.85px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 6.61px;
+}
+
+li {
+    display: inline;
+}
+
+.about,
+.design {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 13.87px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.about_girl {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.design_li {
+    padding: 0;
+    margin: 0;
+}
+
+.works::before {
+    content: "•";
+    margin-right: 5.84px;
+}
+
+.maps {
+    margin-right: 6.61px;
+    font-size: 11px;
+    font-family: Inter;
+}
+
+.works {
+    font-size: 11px;
+    font-family: Inter;
+}
+
+.about {
+    color: #707070;
+
+}
+
+.des {
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 9.59px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #707070;
+    width: 45px;
+    background-color: #F3F3F3;
+    padding: 7px;
+    font-size: 11px;
+    margin-left: 7px;
+}
+
+.design {
+    gap: 6.61px;
+    opacity: 0px;
+
+}
+
+.inf_header {
+    font-family: Inter;
+    font-size: 13.21px;
+    font-weight: 700;
+    line-height: 18.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 403px;
+}
+
+.text_my {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.87px;
+    letter-spacing: 0%;
+    color: #707070;
+    width: 403px;
+
+}
+
+.form {
+    height: 165px;
+    width: 186.66px;
+    padding: 14px;
+    margin-top: 15px;
+    border: 1px solid #E5E8EB;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: -11px 60px 20px 0px rgba(0, 0, 0, 0.2)
+}
+
+.imgform {
+    width: 28.070255279541016;
+    height: 28.070255279541016;
+    gap: 6.1px;
+    padding: 9.76px;
+    border-width: 0.61px;
+    border-radius: 61.02px;
+
+}
+
+.form_input_em::before {
+    content: "";
+    display: block;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    display: flex;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-image: url(../../../assets//image//sms.svg);
+    background-position: center;
+    background-size: 9px;
+    background-repeat: no-repeat;
+}
+
+.form_input_tel::before {
+    content: "";
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    display: flex;
+    /* position: relative;*/
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    z-index: 2;
+    background-image: url('../../../assets/image/call.svg');
+    background-position: center;
+    background-size: 9px;
+    background-repeat: no-repeat;
+}
+
+.em {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 8.86px;
+    margin-left: 38px;
+
+}
+
+.form_input_em {
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.form_input_em .em {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form_input_em input[type="email"] {
+    box-sizing: border-box;
+    margin-left: 38px;
+    width: 120px;
+    height: 12px;
+    border: 1px solid #707070;
+
+}
+
+.tel {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 8.86px;
+    margin-left: 38px;
+
+}
+
+.form_input_tel {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form_input_tel .tel {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form_input_tel input[type="phone"] {
+    box-sizing: border-box;
+    margin-left: 38px;
+    width: 120px;
+    height: 12px;
+    border: 1px solid #707070;
+
+}
+
+.main_about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttRes {
+    font-family: Inter;
+    width: 184px;
+    height: 31px;
+    padding-top: 8.54px;
+    padding-right: 19.53px;
+    padding-bottom: 8.54px;
+    padding-left: 19.53px;
+    gap: 6.1px;
+    background-color: #a7313d;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.buttMes {
+    font-family: Inter;
+    width: 184px;
+    height: 31px;
+    padding-top: 8.54px;
+    padding-right: 19.53px;
+    padding-bottom: 8.54px;
+    padding-left: 19.53px;
+    gap: 6.1px;
+    background-color: white;
+    border: 1px solid #E5DEFD;
+
+}
+
+hr {
+    border: 0.66px solid #F3F3F3;
+    margin-top: 20px;
+}
+
+.cardbutt {
+    width: 367px;
+    height: 6px;
+    background: #F3F3F3;
+    border-radius: 0;
+    border: 0;
+}
+
+.that {
+    background: #3D1EDD;
+    width: 367px;
+    height: 6px;
+    border-radius: 0;
+    border: 0;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.name_blok {
+    width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #121212;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+}
+
+.name_link {
+    text-decoration: none;
+}
+
+.imgs {
+    width: 128px;
+    height: 128px;
+    margin-left: 3px;
+}
+
+@media (max-width: 705px) {
+    .form {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .big_card_inf {
+        width: 538px;
+    }
+}
+
+@media (max-width: 606px) {
+    .big_card_inf {
+        width: 436px;
+    }
+}
+
+@media (max-width: 509px) {
+    .big_card_inf {
+        width: 379px;
+    }
+}

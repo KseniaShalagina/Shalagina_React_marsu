@@ -1,0 +1,63 @@
+.foot_infs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_Job {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: -3%;
+    color: black;
+
+}
+
+.foot_inf {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.inf_foot {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: -2%;
+    color: #080305;
+    margin-left: 120px;
+
+}
+
+.terms {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: -2%;
+    color: #080305;
+    margin-right: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 855px) {
+    .foot_infs {
+        flex-direction: column;
+    }
+
+    .terms {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 543px) {
+
+    .terms,
+    .foot_inf,
+    .inf_foot {
+        margin-left: 20px;
+    }
+}

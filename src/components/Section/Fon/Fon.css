@@ -36,3 +36,8 @@
         height: 252px;
     }
 }
+@media (max-width: 431px) {
+    .fon {
+        height: 209px;
+    }
+}

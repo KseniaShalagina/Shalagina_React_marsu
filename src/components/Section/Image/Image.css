@@ -21,9 +21,12 @@
     object-fit: cover;
 }
 
-.image .swiper {
-    width: 1200px;
-    height: 581px;
+
+@media (min-width: 1230px) {
+    .image .swiper {
+        width: 1200px;
+        height: 581px;
+    }
 }
 
 @media (max-width: 1228px) {
@@ -63,9 +66,17 @@
 }
 
 
-@media (max-width: 530px) {
+@media (max-width: 537px) {
     .first_img {
         width: 406px;
         height: 276px;
+    }
+}
+
+@media (max-width: 431px) {
+    .first_img {
+        width: 336px;
+        height: 236px;
+        object-fit: cover;
     }
 }

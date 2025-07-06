@@ -164,10 +164,14 @@ a {
 
 @media (max-width: 424px) {
     .main_name {
-        width: 420px;
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .main_description {
-        width: 379px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 319px;
     }
 }

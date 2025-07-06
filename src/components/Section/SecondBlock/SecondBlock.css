@@ -83,18 +83,22 @@
         width: 100%;
     }
 }
-
+@media (max-width:1035px) {
+    .name_blok1{
+        font-size: 33px;
+    }
+}
 @media (max-width:861px) {
     .name_blok1 {
-        font-size: 30px;
         width: 742px;
+        font-size: 26px;
     }
 }
 
 @media (max-width:758px) {
     .name_blok1 {
         width: 529px;
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 
@@ -102,5 +106,16 @@
     .name_blok1 {
         width: 432px;
         margin-bottom: 70.9px;
+    }
+}
+@media (max-width:577px) {
+    .second_block{
+        margin-top: -91px;
+    }
+}
+@media (max-width:455px){
+    .name_blok1{
+        width: 355px;
+        font-size: 19px;
     }
 }

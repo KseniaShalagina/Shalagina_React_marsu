@@ -34,3 +34,35 @@
     height: 100px;
     text-align: justify;
 }
+
+.cardbutt {
+    width: 367px;
+    height: 6px;
+    background: #F3F3F3;
+    border-radius: 0;
+    border: 0;
+}
+
+.that {
+    background: #3D1EDD;
+    width: 367px;
+    height: 6px;
+    border-radius: 0;
+    border: 0;
+}
+
+@media (max-width: 416px) {
+    .card {
+        width: 310px;
+        height: 336px;
+    }
+
+    .that {
+        width: 310px;
+    }
+
+    .cardbutt {
+        width: 310px;
+    }
+
+}

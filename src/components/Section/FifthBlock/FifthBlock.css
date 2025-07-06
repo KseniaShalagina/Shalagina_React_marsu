@@ -34,7 +34,8 @@
     margin-top: 139px;
     width: 496px;
 }
-.button-wrapper.left{
+
+.button-wrapper.left {
     margin-left: 0px;
 }
 
@@ -57,12 +58,31 @@
     .fifth_name {
         margin-left: auto;
         margin-right: auto;
+        font-size: 43px;
     }
 }
 
 @media (max-width: 530px) {
     .fifth_name {
-        font-size: 43px;
+        font-size: 26px;
         width: 383px;
+    }
+
+    .button-wrapper.left {
+        width: 341px;
+        margin-left: 52px;
+    }
+    .blok_prifile_min{
+        width: 360px;
+    }
+}
+
+@media (max-width: 455px) {
+    .fifth_name {
+        width: 318px
+    }
+
+    .button-wrapper.left {
+        margin-left: 21px;
     }
 }

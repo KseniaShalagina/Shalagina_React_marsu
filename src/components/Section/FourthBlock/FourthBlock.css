@@ -3,7 +3,6 @@ connect {
     justify-content: space-around;
     width: 1200px;
     margin: auto;
-
 }
 
 .fourth_block {
@@ -30,42 +29,92 @@ connect {
     font-weight: 700;
     line-height: 48px;
     letter-spacing: -0.03em;
-    text-align: center;
     color: #121212;
 }
 
 .cardtxt {
-   font-family: Inter;
+    font-family: Inter;
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1334px) {
+    .connect {
+        width: 1000px;
+
+    }
+}
+
+@media (max-width: 1132px) {
     .fourth_txt {
-        margin-left: 5px;
-        width: 437px;
+        margin-right: 0px;
+        margin-left: 20px;
     }
 }
 
 @media (max-width: 1021px) {
     .connect {
-        width: 1048px;
+        width: 600px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 978px) {
     .connect {
         flex-direction: column;
-        width: 388px;
+        width: 506px;
     }
 
     .fourth_img {
         width: 400px;
         height: 400px;
         gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .fourth_txt {
+        width: 506.4px;
         margin-top: 15px;
     }
+
+    .fourth_block {
+        margin-left: auto;
+        margin-right: auto;
+        width: 506.4px;
+         margin-bottom: 0px;
+    }
+
+    .name_block {
+        width: 506.4px;
+        font-size: 31px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 596px) {
+    .connect {
+        width: 360px;
+    }
+
+    .fourth_txt {
+        width: 360px;
+        margin-top: 15px;
+    }
+
+    .fourth_block {
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+
+    }
+
+    .name_block {
+        width: 360px;
+    }
+
 }
 
 @media (max-width: 518px) {
@@ -77,5 +126,11 @@ connect {
 
     .cardtxt {
         width: 84%;
+    }
+
+    .fourth_img {
+        object-fit: cover;
+        width: 315px;
+        height: 291px;
     }
 }

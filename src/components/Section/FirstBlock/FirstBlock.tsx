@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import ButtonJoin from '../../ButtonJoin/ButtonJoin';
 
 function FirstBlock() {
-    const [open, setOpen] = useState<boolean>(false);
+    const [open, setOpen] = useState(false);
     const clickOpen = () => {
         setOpen(true);
     }

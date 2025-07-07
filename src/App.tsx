@@ -8,13 +8,13 @@ import CardsPage from '../src/pages/CardsPage'
 import NotFoundPage from '../src/pages/NotFoundPage'
 
 function App() {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 2000)
   }, []);
-  
+
   return (
     <BrowserRouter>
       {

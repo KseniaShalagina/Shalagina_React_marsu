@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Form from '../../Form/Form';
 
 function FifthBlock() {
-    const [open, setOpen] = useState<boolean>(false);
+    const [open, setOpen] = useState(false);
     const clickOpen = () => {
         setOpen(true);
     }

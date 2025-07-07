@@ -5,13 +5,13 @@ interface PropsCard {
     card_text: string;
 }
 function Card({ card_name, card_text }: PropsCard) {
-    const[color, setColor]=useState<boolean>(false);
-    const changeColor=()=>{
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
         setColor(!color)
     }
     return (
         <div className="card">
-            <button onClick={changeColor} className={color?"that":"cardbutt"}></button>
+            <button onClick={changeColor} className={color ? "that" : "cardbutt"}></button>
             <h2 className="namecard">{card_name}</h2>
             <p className="cardtxt">{card_text}</p>
         </div>

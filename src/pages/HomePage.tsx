@@ -12,7 +12,7 @@ function HomePage() {
             <FirstBlock />
             <Image><Fon /></Image>
             <SecondBlock />
-            <ThirdBlock><CardList limit={3}/></ThirdBlock>
+            <ThirdBlock><CardList limit={3} /></ThirdBlock>
             <FourthBlock />
             <FifthBlock />
         </>

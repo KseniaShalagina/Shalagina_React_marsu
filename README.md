@@ -39,6 +39,7 @@
 - /src/assets/styles – глобальные стили
 - /src/components – компоненты 
 - /src/components/Section/ – секции страницы
+- /src/hooks – кастомные хуки
 - /src/pages – страницы
 
 ## Установка и запуск проекта

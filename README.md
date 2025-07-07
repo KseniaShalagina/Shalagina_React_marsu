@@ -35,11 +35,11 @@ NotFoundPage - страница с ошибкой
 
 ## Структура
 
-/src/assets/image – изображения
-/src/assets/styles – глобальные стили
-/src/components – компоненты 
-/src/components/Section/ – секции страницы
-/src/pages – страницы
+- /src/assets/image – изображения
+- /src/assets/styles – глобальные стили
+- /src/components – компоненты 
+- /src/components/Section/ – секции страницы
+- /src/pages – страницы
 
 ## Установка и запуск проекта
 

@@ -1,9 +1,11 @@
 import { useState } from "react";
 import './Card.css'
+
 interface PropsCard {
     card_name: string;
     card_text: string;
 }
+
 function Card({ card_name, card_text }: PropsCard) {
     const [color, setColor] = useState(false);
     const changeColor = () => {

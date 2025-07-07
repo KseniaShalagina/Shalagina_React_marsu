@@ -357,14 +357,17 @@ hr {
     margin-left: 3px;
     object-fit: cover;
 }
+
 @media (max-width:1156px) {
-    .backgroundd{
+    .backgroundd {
         background: #6A4EFF;
     }
-    .background{
-      background: radial-gradient(106.43% 106.43% at -2.18% 95.7%, #007aff 0%, #6A4EFF 100%);
-    } 
+
+    .background {
+        background: radial-gradient(106.43% 106.43% at -2.18% 95.7%, #007aff 0%, #6A4EFF 100%);
+    }
 }
+
 @media (max-width:1124px) {
     .name_blok {
         font-size: 34px;
@@ -387,7 +390,8 @@ hr {
     .form {
         display: none;
     }
-    .third_blok{
+
+    .third_blok {
         margin-bottom: 0px;
     }
 }
@@ -404,10 +408,12 @@ hr {
         margin-top: -43.23px;
         font-size: 19px;
     }
-    .about_girl{
+
+    .about_girl {
         flex-direction: column;
     }
-    .about{
+
+    .about {
         margin-bottom: 20px;
     }
 }
@@ -417,11 +423,13 @@ hr {
         width: 436px;
     }
 }
+
 @media (max-width: 542px) {
     .big_card_inf {
         width: 391px;
     }
 }
+
 @media (max-width: 509px) {
     .big_card_inf {
         width: 379px;
@@ -433,13 +441,16 @@ hr {
         width: 100px;
         height: 100px;
     }
-    .text_my{
+
+    .text_my {
         width: 311px;
     }
-    .big_card_inf{
+
+    .big_card_inf {
         width: 313px;
     }
 }
+
 @media (max-width: 416px) {
     .name_blok {
         width: 310px;
@@ -447,4 +458,19 @@ hr {
         font-size: 18px;
     }
 
+    .inf_about {
+        width: 328px;
+    }
+    .photo{
+        width: 328px;
+    }
+    .portfolio{
+        width: 328px;
+    }
+    .with_form{
+        width: 328px;
+    }
+    .inf_header{
+        width: 328px;
+    }
 }

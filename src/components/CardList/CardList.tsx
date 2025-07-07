@@ -42,7 +42,7 @@ function CardList({ limit }: CardsProps) {
     }
     return (
         <div className="cards">
-            {cards.map((card, index) => (
+            {cards.map((card) => (
                 <Card
                     key={card.id}
                     card_name={card.title}

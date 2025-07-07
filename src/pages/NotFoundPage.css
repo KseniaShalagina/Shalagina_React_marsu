@@ -38,9 +38,10 @@
     font-size: 47px;
   }
 }
+
 @media (max-width: 606px) {
   .error {
     font-size: 36px;
-    width: 486px;
+    width: 347px;
   }
 }

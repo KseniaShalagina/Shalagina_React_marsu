@@ -6,8 +6,10 @@ import Form from '../../Form/Form';
 
 function FifthBlock() {
     const [open, setOpen] = useState(false);
-    const clickOpen = () => {
+    const [formName, setFormName] = useState<'entrance' | 'registration'>('registration');
+    const clickOpenReg = () => {
         setOpen(true);
+        setFormName('registration');
     }
     return (
         <>
@@ -17,14 +19,14 @@ function FifthBlock() {
                         <div className="blok_prifile_min">
                             <h2 className="fifth_name">Детский университет МарГУ ждет именно Вашего ребёнка</h2>
                             <div className="button-wrapper left">
-                                <ButtonJoin onClick={clickOpen} />
+                                <ButtonJoin onClick={clickOpenReg} />
                             </div>
                         </div>
                     </div>
                     <img src={Camp} className="fifth_img" />
                 </div>
             </section>
-            <Form active={open} setActive={setOpen} />
+            <Form active={open} setActive={setOpen} formName={formName} />
         </>
     );
 }

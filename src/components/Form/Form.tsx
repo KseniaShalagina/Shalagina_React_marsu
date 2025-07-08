@@ -6,14 +6,16 @@ import isEmail from "validator/lib/isEmail";
 interface propsForm {
     active: boolean;
     setActive: (value: boolean) => void;
+    formName: 'registration' | 'entrance';
 }
 
 interface formInput {
     childName: string;
     email: string;
+    password: string;
 }
 
-function Form({ active, setActive }: propsForm) {
+function Form({ active, setActive, formName }: propsForm) {
     useEffect(() => {
         if (active) {
             document.body.style.overflow = 'hidden';
@@ -37,7 +39,9 @@ function Form({ active, setActive }: propsForm) {
     return (
         <div className={active ? "backdrop activ" : "backdrop"} onClick={clickClose}>
             <form className="form_click" onClick={stopForm} onSubmit={handleSubmit(onSubmit)}>
-                <h1 className="form_name">Форма регистрации</h1>
+                <h1 className="form_name">
+                    {formName == 'entrance' ? 'Форма входа' : 'Форма регистрации'}
+                </h1>
                 <div className="field-area">
                     <input className="input-area" type="text" placeholder="Имя ребёнка"
                         {...register('childName', {
@@ -48,11 +52,24 @@ function Form({ active, setActive }: propsForm) {
                             },
                             pattern: /^[А-Яа-яЁё\s\-]+$/
                         })} />
-                    <input className="input-area" type="email" placeholder="Почтовый адрес"
-                        {...register('email', {
-                            required: 'Обязательно!',
-                            validate: (input) => isEmail(input),
-                        })} />
+                    {formName == 'registration' && (
+                        <input className="input-area" type="email" placeholder="Почтовый адрес"
+                            {...register('email', {
+                                required: 'Обязательно!',
+                                validate: (input) => isEmail(input),
+                            })} />
+                    )}
+                    {formName == 'entrance' && (
+                        <input className="input-area" type="password" placeholder="Пароль"
+                            {...register('password', {
+                                required: 'Обязательно!',
+                                minLength: {
+                                    value: 6,
+                                    message: 'Минимум 6 символа',
+                                },pattern:  /^[A-Za-z]+$/,
+                            })} />
+                    )}
+
                 </div>
                 <div className="form_buttons">
                     <button className="form_button">Отправить</button>

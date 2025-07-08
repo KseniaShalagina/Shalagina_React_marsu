@@ -5,9 +5,18 @@ import Form from '../Form/Form';
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const clickOpen = () => {
+  const [formName, setFormName] = useState<'entrance' | 'registration'>('registration');
+
+  const clickOpenReg = () => {
     setOpen(true);
+    setFormName('registration');
   }
+
+  const clickOpenEnt = () => {
+    setOpen(true);
+    setFormName('entrance');
+  }
+
   return (
     <>
       <header>
@@ -20,15 +29,15 @@ function Header() {
               <ul>
                 <li>
                   <Link to="/cards"><button className="logs"><b>Для родителей</b></button></Link>
-                  <button className="sing" onClick={clickOpen}><b>Регистрация</b></button>
-                  <button className="log" onClick={clickOpen}><b>Войти</b></button>
+                  <button className="sing" onClick={clickOpenReg}><b>Регистрация</b></button>
+                  <button className="log" onClick={clickOpenEnt}><b>Войти</b></button>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
       </header>
-      <Form active={open} setActive={setOpen} />
+      <Form active={open} setActive={setOpen} formName={formName} />
     </>
   );
 }

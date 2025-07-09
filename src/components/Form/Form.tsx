@@ -66,13 +66,13 @@ function Form({ active, setActive, formName }: propsForm) {
                                 minLength: {
                                     value: 6,
                                     message: 'Минимум 6 символа',
-                                },pattern:  /^[A-Za-z]+$/,
+                                }, pattern: /^[A-Za-z\d@$!%*?&]+$/,
                             })} />
                     )}
 
                 </div>
                 <div className="form_buttons">
-                    <button className="form_button">Отправить</button>
+                    <button className="form_button">{formName == 'entrance' ? 'Войти' : 'Отправить'}</button>
                     <button className="form_button" onClick={clickClose}>Закрыть</button>
                 </div>
             </form>
